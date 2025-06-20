@@ -1,3 +1,8 @@
+window.addEventListener('load', function() {
+  $("body").removeClass("bodyHidden");
+  const preloader = document.getElementById('preloader');
+    preloader.style.display = 'none';
+});
 $(".asked__block .btn").click(function(){
     $(this).toggleClass("active");
 });
